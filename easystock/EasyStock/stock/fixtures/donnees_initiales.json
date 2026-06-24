@@ -1,0 +1,116 @@
+[
+  {
+    "model": "stock.categorie",
+    "pk": 1,
+    "fields": {
+      "nom": "Informatique",
+      "description": "Ordinateurs, accessoires et périphériques"
+    }
+  },
+  {
+    "model": "stock.categorie",
+    "pk": 2,
+    "fields": {
+      "nom": "Bureautique",
+      "description": "Fournitures et matériel de bureau"
+    }
+  },
+  {
+    "model": "stock.categorie",
+    "pk": 3,
+    "fields": {
+      "nom": "Réseau",
+      "description": "Câbles, routeurs et équipements réseau"
+    }
+  },
+  {
+    "model": "stock.fournisseur",
+    "pk": 1,
+    "fields": {
+      "nom": "TechSupply Maroc",
+      "email": "contact@techsupply.ma",
+      "telephone": "0522-123456",
+      "adresse": "Casablanca, Maroc"
+    }
+  },
+  {
+    "model": "stock.fournisseur",
+    "pk": 2,
+    "fields": {
+      "nom": "BureauPro",
+      "email": "info@bureupro.ma",
+      "telephone": "0537-654321",
+      "adresse": "Rabat, Maroc"
+    }
+  },
+  {
+    "model": "stock.produit",
+    "pk": 1,
+    "fields": {
+      "nom": "Clavier mécanique",
+      "description": "Clavier RGB sans fil",
+      "prix": "150.00",
+      "quantite": 10,
+      "categorie": 1,
+      "fournisseur": 1,
+      "date_ajout": "2026-05-01T10:00:00Z",
+      "date_modification": "2026-05-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "stock.produit",
+    "pk": 2,
+    "fields": {
+      "nom": "Souris optique",
+      "description": "Souris sans fil ergonomique",
+      "prix": "85.00",
+      "quantite": 3,
+      "categorie": 1,
+      "fournisseur": 1,
+      "date_ajout": "2026-05-02T10:00:00Z",
+      "date_modification": "2026-05-02T10:00:00Z"
+    }
+  },
+  {
+    "model": "stock.produit",
+    "pk": 3,
+    "fields": {
+      "nom": "Écran 24 pouces",
+      "description": "Moniteur Full HD",
+      "prix": "1200.00",
+      "quantite": 0,
+      "categorie": 1,
+      "fournisseur": 1,
+      "date_ajout": "2026-05-03T10:00:00Z",
+      "date_modification": "2026-05-03T10:00:00Z"
+    }
+  },
+  {
+    "model": "stock.produit",
+    "pk": 4,
+    "fields": {
+      "nom": "Ramette de papier A4",
+      "description": "500 feuilles 80g",
+      "prix": "45.00",
+      "quantite": 50,
+      "categorie": 2,
+      "fournisseur": 2,
+      "date_ajout": "2026-05-04T10:00:00Z",
+      "date_modification": "2026-05-04T10:00:00Z"
+    }
+  },
+  {
+    "model": "stock.produit",
+    "pk": 5,
+    "fields": {
+      "nom": "Câble RJ45",
+      "description": "Câble réseau Cat6 5m",
+      "prix": "30.00",
+      "quantite": 2,
+      "categorie": 3,
+      "fournisseur": 1,
+      "date_ajout": "2026-05-05T10:00:00Z",
+      "date_modification": "2026-05-05T10:00:00Z"
+    }
+  }
+]
